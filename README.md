@@ -76,11 +76,8 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: https://github.com/huggingface/transformers/fork
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
-  
-3. Explicação: <EXPLICACAO_AQUI>
+2. Gráfico selecionado: Data structures
 
-
-
+3. Explicação: O gráfico mostra a evolução do uso de quatro estruturas de dados em Python no repositório transformers entre 2020 e 2025. As listas (list) apresentam o maior crescimento, passando de poucos milhares para mais de 45 mil ocorrências, o que indica seu uso intenso para manipulação de dados mutáveis. As tuplas (tuple) também cresceram significativamente, sugerindo uso frequente em retornos de funções e estruturas imutáveis. Dicionários (dictionary) tiveram crescimento constante e refletem seu papel central em configurações, parâmetros e manipulação de dados estruturados. Já os conjuntos (set) tiveram uma leve queda após 2023, indicando possível desuso por questões de clareza ou performance. Essas tendências refletem boas práticas e possíveis mudanças arquiteturais no código do repositório, como a introdução de novos modelos e pipelines.
